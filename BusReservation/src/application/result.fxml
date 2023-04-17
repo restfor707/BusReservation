@@ -8,7 +8,6 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="87.0" layoutY="172.0" text="출발지">
@@ -57,7 +56,10 @@
          </image>
       </ImageView>
       <Line endX="1.0" layoutX="359.0" layoutY="227.0" startX="-100.0" />
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="161.0" layoutY="109.0" prefHeight="50.0" prefWidth="299.0" />
+      <TextField alignment="CENTER" disable="true" editable="false" layoutX="161.0" layoutY="109.0" prefHeight="50.0" prefWidth="299.0" text="2023.04.17 (월) 10:00">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
       <Label alignment="CENTER" layoutX="214.0" layoutY="82.0" prefHeight="28.0" prefWidth="192.0" text="출발일시">
          <font>
             <Font size="18.0" />
