@@ -1,4 +1,4 @@
-package select;
+package StartingPoint;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class AppMain extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("select.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("StartingPoint.fxml"));
 		Scene scene = new Scene(root);
 		scene.getStylesheets().add(getClass().getResource("app.css").toString());
 		primaryStage.setTitle("AppMain");
