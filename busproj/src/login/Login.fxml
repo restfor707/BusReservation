@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="login.Login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="477.0">
    <children>
-      <Button layoutX="82.0" layoutY="265.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="315.0" text="LOGIN">
+      <Button fx:id="btnLogin" layoutX="82.0" layoutY="265.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="315.0" text="LOGIN">
          <font>
             <Font name="System Bold Italic" size="20.0" />
          </font>
@@ -19,17 +19,17 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Button layoutX="82.0" layoutY="350.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="315.0" text="GET REGISTERED">
+      <Button fx:id="btnAdd" layoutX="82.0" layoutY="350.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="315.0" text="GET REGISTERED">
          <font>
             <Font name="System Bold Italic" size="20.0" />
          </font>
       </Button>
-      <TextField alignment="CENTER" layoutX="97.0" layoutY="119.0" prefHeight="42.0" prefWidth="283.0" promptText="Username">
+      <TextField alignment="CENTER" layoutX="97.0" layoutY="119.0" prefHeight="42.0" prefWidth="283.0" promptText="Username" fx:id="LoginId">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="98.0" layoutY="173.0" prefHeight="42.0" prefWidth="283.0" promptText="**********">
+      <TextField alignment="CENTER" layoutX="98.0" layoutY="173.0" prefHeight="42.0" prefWidth="283.0" promptText="**********" fx:id="LoginPwd">
          <font>
             <Font size="20.0" />
          </font>
