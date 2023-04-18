@@ -32,6 +32,6 @@
 		<TextField fx:id="inputPhone" layoutX="134.0" layoutY="192.0" prefHeight="24.0" prefWidth="249.0" />
 		<TextField fx:id="inputEmail" layoutX="134.0" layoutY="234.0" prefHeight="24.0" prefWidth="249.0" />
 		<Button fx:id="submitRegister" layoutX="134.0" layoutY="286.0" mnemonicParsing="false" text="가입하기" />
-		<Button fx:id="resetRegister" layoutX="310.0" layoutY="286.0" mnemonicParsing="false" text="다시입력" />
+		<Button fx:id="resetRegister" layoutX="227.0" layoutY="286.0" mnemonicParsing="false" text="다시입력" />
 	</children>
 </AnchorPane>
