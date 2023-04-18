@@ -4,15 +4,17 @@ public class UserVO {
 	private String id;
 	private String pwd;
 	private String name;
-	private String address;
 	private String phone;
 	private String email;
 	
-	public UserVO(String id, String pwd, String name, String address, String phone, String email) {
+	public UserVO() {
+		
+	}
+	
+	public UserVO(String id, String pwd, String name, String phone, String email) {
 		this.id = id;
 		this.pwd = pwd;
 		this.name = name;
-		this.address = address;
 		this.phone = phone;
 		this.email = email;
 	}
@@ -39,14 +41,6 @@ public class UserVO {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
 	}
 
 	public String getPhone() {

@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 
 
 public class Bus_seat extends Application {
+	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 			Parent root = FXMLLoader.load(getClass().getResource("Bus_seat.fxml"));
