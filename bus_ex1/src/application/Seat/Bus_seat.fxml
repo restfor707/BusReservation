@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="1242.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="462.0" prefWidth="92.0" style="-fx-background-color: d9dddc;">
+         <children>
+            <Label layoutX="34.0" layoutY="216.0" text="앞">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="892.0" prefHeight="462.0" prefWidth="92.0" style="-fx-background-color: d9dddc;">
+         <children>
+            <Label layoutX="34.0" layoutY="216.0" text="뒤">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="103.0" prefHeight="166.0" prefWidth="79.0" style="-fx-background-color: c7c6c1;">
+         <children>
+            <Label layoutX="11.0" layoutY="72.0" text="출입문">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="190.0" prefHeight="122.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="25.0" text="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="40.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="190.0" layoutY="387.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="190.0" layoutY="303.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="305.0" layoutY="387.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="305.0" layoutY="303.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="429.0" layoutY="387.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="429.0" layoutY="303.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="544.0" layoutY="387.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="10">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="544.0" layoutY="303.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="11">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="654.0" layoutY="387.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="13">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="654.0" layoutY="303.0" prefHeight="68.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="14">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="103.0" layoutY="296.0" prefHeight="166.0" prefWidth="79.0" style="-fx-background-color: c7c6c1;">
+         <children>
+            <Label layoutX="11.0" layoutY="72.0" text="운전석">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Separator layoutX="992.0" orientation="VERTICAL" prefHeight="462.0" prefWidth="17.0" />
+      <Separator layoutX="1000.0" layoutY="223.0" prefHeight="16.0" prefWidth="233.0" />
+      <Pane layoutX="1009.0" prefHeight="231.0" prefWidth="233.0">
+         <children>
+            <CheckBox allowIndeterminate="true" layoutY="74.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="224.0" selected="true" text="이미 예매된 좌석">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </CheckBox>
+            <CheckBox layoutY="160.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="224.0" text="예매 가능 좌석">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </CheckBox>
+            <Label layoutX="58.0" layoutY="14.0" text="좌석 표시">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="1009.0" layoutY="231.0" prefHeight="231.0" prefWidth="233.0">
+         <children>
+            <Label layoutX="58.0" layoutY="6.0" text="승객 여부">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <ComboBox layoutY="53.0" prefHeight="30.0" prefWidth="51.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="53.0" prefHeight="30.0" prefWidth="156.0" text="성인">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ComboBox layoutY="109.0" prefHeight="30.0" prefWidth="51.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="109.0" prefHeight="30.0" prefWidth="156.0" text="미성년자, 어린이">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="71.0" layoutY="175.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="92.0" text="확인">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="305.0" prefHeight="122.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="25.0" text="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="40.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="429.0" prefHeight="122.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="25.0" text="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="40.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="544.0" prefHeight="122.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="25.0" text="12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="40.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="654.0" prefHeight="122.0" prefWidth="71.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="25.0" text="15">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="40.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="788.0" prefHeight="88.0" prefWidth="92.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="19">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="788.0" layoutY="371.0" prefHeight="88.0" prefWidth="92.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="16">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="788.0" layoutY="122.0" prefHeight="88.0" prefWidth="92.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="18">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+      <Pane layoutX="788.0" layoutY="252.0" prefHeight="88.0" prefWidth="92.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label layoutX="31.0" layoutY="5.0" text="17">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="29.0" layoutY="46.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" text="CheckBox" />
+         </children>
+      </Pane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

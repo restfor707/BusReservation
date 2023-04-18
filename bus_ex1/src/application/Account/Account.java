@@ -1,4 +1,4 @@
-package application;
+package application.Account;
 	
 import java.io.IOException;
 
@@ -9,10 +9,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 
-public class Bus_seat extends Application {
+public class Account extends Application {
 	@Override
 	public void start(Stage primaryStage) throws IOException {
-			Parent root = FXMLLoader.load(getClass().getResource("Bus_seat.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("Account.fxml"));
 			Scene scene = new Scene(root);
 			primaryStage.setScene(scene);
 			primaryStage.show();
