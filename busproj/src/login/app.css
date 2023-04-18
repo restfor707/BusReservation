@@ -1,0 +1,11 @@
+#VBox1 {
+	-fx-background-image: url("/images/user.png");
+	-fx-background-size:35px;  
+	-fx-background-repeat: no-repeat;  
+}
+
+#VBox2 {
+	-fx-background-image: url("/images/password.png");
+	-fx-background-size:45px;  
+	-fx-background-repeat: no-repeat;  
+}

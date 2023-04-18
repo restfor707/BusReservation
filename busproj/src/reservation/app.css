@@ -1,0 +1,10 @@
+#VBox {
+	-fx-background-image: url("/images/bus.png");
+	-fx-background-size:80px;  
+	-fx-background-repeat: no-repeat;  
+	
+}
+
+.root {
+     
+}
